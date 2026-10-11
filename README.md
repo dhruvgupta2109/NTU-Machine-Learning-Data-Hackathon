@@ -183,27 +183,25 @@ The training notebooks rebuild models and explain the experiments. Each saved pa
 <table>
   <tr>
     <td align="center" width="50%">
-      <strong>Working through the experiments</strong><br><br>
-      <img src="Imgs/locked%20in.png" alt="Cookie Squad working together during the datathon" width="480">
+      <strong>Post match discussion</strong><br><br>
+      <img src="Imgs/Post-Match%20discussion.png" alt="The team discussing its work after the competition" width="480">
     </td>
     <td align="center" width="50%">
-      <strong>Post-match discussion</strong><br><br>
-      <img src="Imgs/Post-Match%20discussion.png" alt="The team discussing its work after the competition" width="480">
+      <strong>Track 1 Finalists</strong><br><br>
+      <img src="Imgs/finalists.png" alt="Datathon finalist lanyards and keepsakes" width="480">
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <strong>Track 1 finalist keepsakes</strong><br><br>
-      <img src="Imgs/finalists.png" alt="Datathon finalist lanyards and keepsakes" width="480">
+      <strong>Eating free food at finals</strong><br><br>
+      <img src="Imgs/eating.png" alt="Enjoying free food at the datathon finals" width="480">
     </td>
     <td align="center" width="50%">
-      <strong>Public leaderboard during the competition</strong><br><br>
-      <img src="Imgs/Public%20Leaderboard.png" alt="A public leaderboard snapshot taken during the competition" width="480">
+      <strong>Working through the experiments</strong><br><br>
+      <img src="Imgs/locked%20in.png" alt="Cookie Squad working together during the datathon" width="480">
     </td>
   </tr>
 </table>
-
-*A leaderboard snapshot from during the competition. The final placements are listed in the standings table above.*
 
 ## Submissions
 
