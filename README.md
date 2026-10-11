@@ -2,6 +2,8 @@
 
 # Cookie Squad · NTU MLDA Datathon 2026
 
+**Team:** Yash Raj · Anish Gajulapalli Reddy · Dhruv Gupta · Suraj Balaji Bangarusamy
+
 **Smart Campus Energy Forecasting & TrustGuard Fraud Detection**
 
 Two tracks, two different prediction problems, and a shared lesson: understanding the data mattered as much as choosing the model.
@@ -13,8 +15,6 @@ Two tracks, two different prediction problems, and a shared lesson: understandin
 </div>
 
 This repository brings together Cookie Squad's work on **Track 1: Smart Campus Analytics** and **Track 2: TrustGuard**. It includes exploratory analysis, feature engineering, training notebooks, saved model packages, experiments, and technical reports.
-
-**Team:** Yash Raj · Anish Gajulapalli Reddy · Dhruv Gupta · Suraj Balaji Bangarusamy
 
 [Track 1](#track-1--smart-campus-energy-forecasting) · [Track 2](#track-2--trustguard-fraud-detection) · [Run the notebooks](#run-the-notebooks) · [Submissions](#submissions)
 
@@ -55,7 +55,7 @@ The final step was selected using public leaderboard feedback. Its benefit depen
 
 Building energy was well described by additive effects, while each building had a distinct schedule and sensitivity to occupancy and temperature. Ridge regression preserved those relationships and continued responding to extreme observed inputs. Tree models tended to saturate beyond their training range.
 
-![Illustration of tree saturation versus the linear model's response to previous energy usage](Track%201/reports/figures/p_extrap.png)
+![Illustration of tree saturation versus the linear model's response to previous energy usage](Imgs/track1-energy-extrapolation.png)
 
 *An analysis illustration showing why extrapolation mattered when choosing the energy-model family.*
 
@@ -104,9 +104,9 @@ Regularisation was particularly useful with only 353 positive examples. The test
 
 Activity bursts occurred about **3.1 times as often in test**, and mean feature missingness increased from **0.52% to 1.81%**. Hour and feature patterns also suggested synthetic-looking transaction groups. These observations motivated fixed group adjustments for bursts, older accounts using new devices, and selected high-value purchases.
 
-![Training class imbalance: 353 fraudulent transactions and 19,647 legitimate transactions](Track%202/analysis/figures/01_class_imbalance.png)
+![Training class imbalance: 353 fraudulent transactions and 19,647 legitimate transactions](Imgs/track2-class-imbalance.png)
 
-![Differences in transaction hours and feature missingness between training and public test data](Track%202/analysis/figures/02_distribution_shift.png)
+![Differences in transaction hours and feature missingness between training and public test data](Imgs/track2-distribution-shift.png)
 
 The final **C2** variant refined burst adjustments by country, distinguishing Malaysia, Indonesia, and Singapore from other countries. These adjustments were selected with public leaderboard feedback, so their transfer to a different population remains uncertain.
 
@@ -132,7 +132,7 @@ Explore the [Track 2 workspace](Track%202/), [training and analysis notebook](Tr
 ```text
 .
 ├── README.md
-├── Imgs/                         Event photos and leaderboard snapshot
+├── Imgs/                         All README images: event photos and analysis plots
 ├── Technical Reports/            Final team reports for both tracks
 ├── Track 1/
 │   ├── notebooks/                Training, analysis, and presentation notebook
@@ -180,13 +180,28 @@ The training notebooks rebuild models and explain the experiments. Each saved pa
 
 ## From the datathon
 
-| Working through the experiments | Post-match discussion | Track 1 finalist keepsakes |
-| :---: | :---: | :---: |
-| <img src="Imgs/locked%20in.png" alt="Cookie Squad working together during the datathon" width="290"> | <img src="Imgs/Post-Match%20discussion.png" alt="The team discussing its work after the competition" width="220"> | <img src="Imgs/finalists.png" alt="Datathon finalist lanyards and keepsakes" width="220"> |
-
-<p align="center">
-  <img src="Imgs/Public%20Leaderboard.png" alt="A public leaderboard snapshot taken during the competition" width="520">
-</p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Working through the experiments</strong><br><br>
+      <img src="Imgs/locked%20in.png" alt="Cookie Squad working together during the datathon" width="480">
+    </td>
+    <td align="center" width="50%">
+      <strong>Post-match discussion</strong><br><br>
+      <img src="Imgs/Post-Match%20discussion.png" alt="The team discussing its work after the competition" width="480">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Track 1 finalist keepsakes</strong><br><br>
+      <img src="Imgs/finalists.png" alt="Datathon finalist lanyards and keepsakes" width="480">
+    </td>
+    <td align="center" width="50%">
+      <strong>Public leaderboard during the competition</strong><br><br>
+      <img src="Imgs/Public%20Leaderboard.png" alt="A public leaderboard snapshot taken during the competition" width="480">
+    </td>
+  </tr>
+</table>
 
 *A leaderboard snapshot from during the competition. The final placements are listed in the standings table above.*
 
