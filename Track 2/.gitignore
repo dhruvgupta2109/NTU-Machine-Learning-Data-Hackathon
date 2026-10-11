@@ -1,0 +1,10 @@
+.venv/
+.venv_clean/
+catboost_info/
+__pycache__/
+experiments/*.npy
+experiments/codex/*.npy
+experiments/codex/*_executed.ipynb
+tmp/
+deliverables/*.zip
+.venv_ebm/
