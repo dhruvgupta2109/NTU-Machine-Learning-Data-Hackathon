@@ -183,10 +183,10 @@ The training notebooks rebuild models and explain the experiments. Each saved pa
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="Imgs/Post-Match%20discussion.png" alt="The team discussing its work after the competition" width="480">
+      <img src="Imgs/finalists.png" alt="Datathon finalist lanyards and keepsakes" width="480">
     </td>
     <td align="center" width="50%">
-      <img src="Imgs/finalists.png" alt="Datathon finalist lanyards and keepsakes" width="480">
+      <img src="Imgs/Post-Match%20discussion.png" alt="The team discussing its work after the competition" width="480">
     </td>
   </tr>
   <tr>
